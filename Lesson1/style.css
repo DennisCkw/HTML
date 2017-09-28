@@ -1,0 +1,31 @@
+* {
+   outline: 1px solid red !important;
+}
+
+body {
+	max-width: 780px;
+	margin: 0 auto;	
+}
+
+.app {
+	display: flex;		
+}
+.description {
+	font-size: small;
+	font-style: italic;
+	max-width: 705px;
+}
+
+.title {
+	color:white;
+	font-size: 50px;
+	font-stretch: semi-expanded;
+	background-color: #33bebe;
+	padding-left: 20px;
+	padding-bottom: 10px; 
+	padding-top: 35px;
+}
+
+.image {
+	margin-right: 35px;
+}

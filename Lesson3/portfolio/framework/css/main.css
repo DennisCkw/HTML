@@ -1,0 +1,133 @@
+* {
+    border: 0.5px solid red !important;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 500px) and (orientation:landscape) {
+    .caption {
+        display: none
+    }
+}
+
+.grid {
+    margin: 0 auto;
+    max-width: 850px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+img {
+   margin-top: 10px;  
+}
+
+h1 {
+    letter-spacing: 4px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: right;
+    font-size: 43px;
+    margin-left: 0;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.5;
+}
+
+h2 {
+    text-align: right;
+    font-size: 14px;
+}
+
+h3 {
+    margin-left: 5px;
+    font-size: 25px;
+    opacity: 0.5;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+img.middle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 14px;
+}
+
+img.right {
+    float: right;
+    margin-bottom: 14px;
+    
+}
+figcaption.caption {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+a.links {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    opacity: 0.5;
+    color: dimgrey;
+}
+
+
+

@@ -92,8 +92,8 @@ body {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
 }
 
 [tabindex="-1"]:focus {
@@ -8074,11 +8074,11 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 .text-lowercase {
-  text-transform: lowercase !important;
+  text-transform: lowercase;
 }
 
 .text-uppercase {
-  text-transform: uppercase !important;
+  text-transform: uppercase;
 }
 
 .text-capitalize {
